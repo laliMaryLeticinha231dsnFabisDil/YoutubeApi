@@ -5,10 +5,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>SEJA BEM VINDO</Text>
-      <Button
-        title="CLIQUE AQUI"
-        onPress={() => navigation.navigate('index')}
-      />
+      
     </View>
   );
 }

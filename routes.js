@@ -2,7 +2,7 @@ import React from 'react';
 import { AntDesign, FontAwesome } from '@expo/vector-icons';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './homeScreen';
+import HomeScreen from './pages/homeScreen';
 import youtubeTela from './youtubeTela';
 import VimeoTela from './VimeoTela';
 

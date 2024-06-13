@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, TextInput, TouchableOpacity, Text, ScrollView, KeyboardAvoidingView } from 'react-native';
 import { WebView } from 'react-native-webview';
-import { buscarVideos } from './youtube';
+import { buscarVideos } from '../youtube';
 
 export default function SearchScreen() {
   const [pesquisa, setpesquisa] = useState('');

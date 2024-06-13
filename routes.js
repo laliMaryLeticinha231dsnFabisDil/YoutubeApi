@@ -2,9 +2,9 @@ import React from 'react';
 import { AntDesign, FontAwesome } from '@expo/vector-icons';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from './pages/homeScreen';
-import youtubeTela from './youtubeTela';
-import VimeoTela from './VimeoTela';
+import HomeScreen from './pages/homeScreen'; // Ajuste no nome do arquivo
+import YoutubeTela from './pages/youtubeTela'; // Ajuste no nome do arquivo
+import VimeoTela from './pages/VimeoTela';
 
 const Tab = createBottomTabNavigator();
 
@@ -33,7 +33,7 @@ export default function Routes() {
       }}
     >
       <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'Início' }} />
-      <Tab.Screen name="YouTube" component={youtubeTela} options={{ title: 'YouTube' }} />
+      <Tab.Screen name="YouTube" component={YoutubeTela} options={{ title: 'YouTube' }} />
       <Tab.Screen name="Vimeo" component={VimeoTela} options={{ title: 'Vimeo' }} />
     </Tab.Navigator>
   );

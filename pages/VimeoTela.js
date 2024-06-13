@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, TextInput, TouchableOpacity, Text, ScrollView, KeyboardAvoidingView } from 'react-native';
 import { WebView } from 'react-native-webview';
-import { buscarVideosVimeo } from './vimeo';
+import { buscarVideosVimeo } from '../vimeo';
 
 export default function VimeoSearchScreen() {
   const [pesquisa, setPesquisa] = useState('');
